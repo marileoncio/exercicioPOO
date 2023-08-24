@@ -23,3 +23,5 @@ class Pessoa {
 let pessoa1 = new Pessoa("Mari", 16, ["pizza", "churrasco", "bolo de chocolate"]);
 console.log(pessoa1.cumprimentar());
 console.log(pessoa1.comidasFav());
+
+oi 
