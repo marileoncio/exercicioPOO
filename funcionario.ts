@@ -21,7 +21,7 @@ ApresentarFuncionario(){
 
 ApresentarInss(inss: number, ir:number){
     let valorINSS = (this.salário/100) * inss;
-    let valorIR = (this.salário/100 )* this.ir;
+    let valorIR = ((this.salário - valorINSS)/100 )* ir;
     let total = (valorINSS + valorIR)
 
     return " Salario Bruto: " + this.salário + "," + " Imposto do INSS de " + inss + "%, com valor de: R$" + valorINSS +
